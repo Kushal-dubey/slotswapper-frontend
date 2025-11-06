@@ -60,7 +60,7 @@ import { ref, onMounted } from "vue";
 import axios from "axios";
 
 // ✅ Live backend base URL
-const BASE_URL = "https://slotswapper-backend-8evu.onrender.com/api";
+const BASE_URL = "import.meta.env.VITE_API_BASE_URL;";
 
 const userName = ref("Kushal Dubey");
 const events = ref([]);
